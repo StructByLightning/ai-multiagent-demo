@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "env-cmd nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.1",
+    "discord.js": "^14.15.3",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^3.1.4",
+    "sleep-promise": "^9.1.0"
+  }
+}
